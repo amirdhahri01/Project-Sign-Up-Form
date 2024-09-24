@@ -1,30 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
     font-family: "Quicksand", sans-serif;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container.change .green-bg{
+
+.container.change .green-bg {
     width: 40%;
 }
-.container.change .banner{
+
+.container.change .banner {
     left: 5rem;
 }
-.container.change .signup-form{
+
+.container.change .signup-form {
     left: 40rem;
 }
-.form-wrapper{
+
+.form-wrapper {
     width: 100rem;
     height: 70rem;
     background-color: #eee;
@@ -33,17 +39,19 @@ html{
     position: relative;
     overflow: hidden;
 }
-.green-bg{
-     width: 100%;
-     height: 100%;
-     background: linear-gradient(to right ,#3ab19b , #4cbf91);
-     position: absolute;
-     top: 0;
-     left: 0;
-     z-index: 50;
-     transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+.green-bg {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #3ab19b, #4cbf91);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.green-bg button{
+
+.green-bg button {
     position: absolute;
     top: 60%;
     left: 50%;
@@ -58,7 +66,8 @@ html{
     color: white;
     cursor: pointer;
 }
-.banner{
+
+.banner {
     position: absolute;
     z-index: 100;
     top: 25%;
@@ -68,14 +77,17 @@ html{
     width: 30rem;
     transition: left .8s;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 4rem;
     margin-bottom: 3rem;
 }
-.banner p{
+
+.banner p {
     font-size: 2rem;
 }
-.signup-form{
+
+.signup-form {
     width: 60rem;
     height: 100%;
     position: absolute;
@@ -86,16 +98,19 @@ html{
     justify-content: space-around;
     align-items: center;
     padding: 10rem 0;
-    transition:left 1.5s cubic-bezier(0.19 , 1 ,0.22 , 1);
+    transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.signup-form h1{
+
+.signup-form h1 {
     font-size: 4rem;
     color: #3aaf9f;
 }
-.social-media{
+
+.social-media {
     display: flex;
 }
-.social-media i{
+
+.social-media i {
     width: 4rem;
     height: 4rem;
     border: 0.1rem solid #777;
@@ -107,15 +122,18 @@ html{
     font-size: 2rem;
     color: #555;
 }
-.social-media p{
+
+.social-media p {
     font-size: 1.8rem;
     color: #555;
     margin-bottom: 2rem;
 }
-.input-group{
+
+.input-group {
     position: relative;
 }
-.input-group input{
+
+.input-group input {
     width: 28rem;
     height: 5rem;
     padding: 1rem 1rem 1rem 3rem;
@@ -123,15 +141,17 @@ html{
     border: none;
     border-radius: 0.5rem;
 }
-.input-group i{
+
+.input-group i {
     position: absolute;
     top: 50%;
     left: 1rem;
-    transform: translateY(-50%); 
+    transform: translateY(-50%);
     font-size: 1.2rem;
     color: #555;
 }
-.signup-form button{
+
+.signup-form button {
     width: 16rem;
     height: 5rem;
     background-color: #3aaf9f;
